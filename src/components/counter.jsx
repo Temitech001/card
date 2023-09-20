@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const Welcome = () => {
+const Counter = () => {
   const [count, setCount] = useState(0);
 
   function decrease() {
@@ -32,4 +32,4 @@ const Welcome = () => {
     </div>
   );
 };
-export default Welcome;
+export default Counter;

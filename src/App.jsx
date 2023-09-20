@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import Name from './components/Name';
-import Welcome from './components/welcome';
+import Counter from './components/counter';
 import { Switch } from '@chakra-ui/react';
 import { useState } from 'react';
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div>
-        <Welcome />
+        <Counter />
         <NavBar />
         {show && <Name />}
       </div>
