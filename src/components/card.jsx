@@ -13,7 +13,10 @@ const Card = ({
   text,
 }) => {
   return (
-    <div className=" border-2  border-slate-600 lg:ml-3 lg:mt-4 md:mx-0 max-w-full min-w-min sm:w-auto p-4 w-full sm:max-w-[390px] flex  sm:flex-row items-center bg-white shadow-xl ring-1 lg:flex flex-row ring-slate-900/5 rounded gap-4 sm:gap-9">
+    <div
+      className=" border-2  border-slate-600 lg:ml-3 lg:mt-4
+     md:mx-0 max-w-full min-w-min sm:w-auto p-4 w-full sm:max-w-[390px] flex  sm:flex-row items-center bg-white shadow-xl ring-1 lg:flex flex-row ring-slate-900/5 rounded gap-4 sm:gap-9"
+    >
       <div className="bg-yellow-400 shadow text-center max-w-full  sm:w-[150px] sm:flex-shrink-0  ">
         <img
           className="hidden sm:block m-2 p-2 w-20 h-20 rounded-full"

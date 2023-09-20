@@ -1,8 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Counter = () => {
   const [count, setCount] = useState(0);
 
+  useEffect(() => {
+    console.log('samuel');
+  }, [count]);
   function decrease() {
     // setCount(count <= 0 ? 0 : count - 1);
     setCount((n) => (n <= 0 ? 0 : count - 1));
